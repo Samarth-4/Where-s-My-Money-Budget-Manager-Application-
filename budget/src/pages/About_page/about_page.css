@@ -1,0 +1,208 @@
+.about_page_main_div{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #F6FFDE;
+    padding: 3rem;
+}
+
+.heading_about{
+    padding: 3rem;
+    border-bottom: 2px solid #ffbf8b;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    background-color: #F8CBA6;
+}
+.para_about{
+    padding: 1.2rem;
+    display: flex;
+    font-weight: 600;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #AAC8A7;
+    text-align: justify;
+}
+.para_about_sub_div{
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    background-color: #E3F2C1 !important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.para_about_left{
+
+    min-height: 30rem;
+    padding: 0.3rem;
+    width: 45%;
+}
+.para_about_right{
+    padding: 0.3rem;
+  
+    text-align: justify;
+    min-height: 30rem;
+    width: 45%;
+}
+
+.back_button{
+
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 7rem;
+    background-color: #F6FFDE;
+    margin-right: 1rem;
+    border: none;
+    font-weight: 700;
+    height: 3rem;
+}
+.team{
+    display: flex;
+    flex-direction: row;
+}
+.card_body{
+    background-color: #F6FFDE;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius:1rem ;
+}
+.cards{
+    border-bottom-left-radius:1rem ;
+    margin: 1rem;
+    border-bottom-right-radius:1rem ;
+}
+@media screen and (max-width:742px) {
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+    .para_about_left{
+
+        min-height: 30rem;
+        padding: 0.3rem;
+        width: 100%;
+    }
+    .para_about_right{
+        padding: 0.3rem;
+      
+        text-align: justify;
+        min-height: 30rem;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    
+    .para_about_sub_div{
+        padding: 1.5rem;
+        border-radius: 1rem;
+        display: flex;
+        background-color: #E3F2C1 !important;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+main {
+	width: 90%;
+background-color: #E3F2C1 !important;
+	margin: 0 auto;
+	padding: 3rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+	text-align: center;
+}
+.back_button:hover{
+    font-weight: 700;
+    background-color: #e1f3b0 !important;
+}
+.sub_about_page_div{
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    min-height: 10vh;
+    text-align: center;
+    padding: 1rem;
+  font-size: 2rem;
+border-bottom-left-radius: 2rem;
+border-bottom-right-radius: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 2px 0px;
+    width: 100%;
+    background-color: #AAC8A7;
+    display: flex;
+    flex-direction: row;
+}
+.chart{
+    width: 100%;
+    display: block ;
+}
+.subchart{
+    display: inline-block;
+ width: 30rem;
+}
+.search_bar{
+    justify-content: center;
+    width: 26rem;
+    padding: 2rem;
+    display: inline-block;
+
+}
+
+.nav_bar_about{
+    text-align: center;
+    padding: 0.2rem;
+    border-top-left-radius: 2rem;
+    justify-content: center;
+    text-align: center;
+border-top-right-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 0px 0px;
+    background-color: #AAC8A7;
+}
+.members_about_page{
+    margin: 2rem;
+    display: flex;
+    float: left;
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+    min-height: 10rem;
+    background-color: aqua;
+
+}
+@media screen and (max-width:558px) {
+    .subchart{
+        display: inline-block;
+     width: 20rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .subchart{
+        display: inline-block;
+     width: 15rem;
+    }
+}
+
+@media screen and (max-width:275px) {
+    .subchart{
+        display: inline-block;
+     width: 10rem;
+    }
+}
+@media screen and (max-width:473px) {
+    
+.heading_about{
+    padding: 2.2rem;
+    border-bottom: 2px solid #ffbf8b;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    background-color: #F8CBA6;
+}
+    .search_bar{
+        width: 100%;
+    }
+}

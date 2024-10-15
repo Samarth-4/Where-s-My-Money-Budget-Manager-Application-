@@ -1,0 +1,37 @@
+
+.swal-icon--success:before{
+    background-color: #01093700;
+
+}
+.swal-icon--success:after{
+    background-color: #01093700;
+
+}
+.swal-icon--success__hide-corners{
+    background-color: #01093700;
+
+}
+.swal-text{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.swal-button ,swal-button--confirm{
+    border: none;
+    background-color:  #fdc08e;
+
+}
+.swal-modal{
+    color: white;
+    
+  
+    background-color:  #ffe7cc;
+}
+.swal-title{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+}
+.swal-footer{
+    background-color:  #fdc08e;
+}
